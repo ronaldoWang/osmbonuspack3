@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">osmbonuspack2</string>
+    <string name="position">移动</string>
+    <string name="reset">还原</string>
+</resources>
