@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.location.Location;
 import android.location.LocationListener;
@@ -109,6 +110,7 @@ public class MainActivity extends Activity implements MapEventsReceiver, MapView
             }
         });
         Polyline pl = new Polyline();
+        pl.setColor(Color.GREEN);
         l = new ArrayList();
         l.add(new GeoPoint(31.26531, 121.70664));
         l.add(new GeoPoint(31.26462, 121.70698));
